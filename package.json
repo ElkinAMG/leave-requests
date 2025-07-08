@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "test:watch": "jest --watch",
+    "test": "jest",
+    "test:coverage": "jest --coverage --runInBand --detectOpenHandles --forceExit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@ui5/webcomponents": "~2.11.0",
+    "@ui5/webcomponents-fiori": "~2.11.0",
+    "@ui5/webcomponents-icons": "~2.11.0",
+    "@ui5/webcomponents-react": "^2.11.1",
+    "next": "15.3.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
+    "tailwindcss": "^4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5"
+  }
+}
